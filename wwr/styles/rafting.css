@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root {
+    --primary-color : #f6e7cb;
+    --secondary-color : #678d58;
+    --accent1-color : #140707e8;
+    --accent2-color: #f3f7f2;
+
+    --heading-font: Kanit, serif;
+    --paragraph-font: Roboto, serif;
+
+    --nav-background-color: #becdd7;
+    --nav-link-color: #A03118;
+    --nav-hover-link-color : #010a13;
+    --nav-hover-background-color : #89B179;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    width: 650px;
+    padding: 20px;
+}
+
+p {
+    
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+.hero {
+    display: block;
+    align-content: center;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 360px;
+    left: 490px;
+    color: var(--accent1-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    background-color: rgba(159, 168, 159, 0.6);
+    padding: 10px;
+}
+
+article img {
+    float: right;
+    max-width: 250px;
+}
+
+.hero img {
+    display: block;
+    width: 85rem;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+}
