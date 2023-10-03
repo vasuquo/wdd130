@@ -63,9 +63,9 @@ ul {
 }
 
 /* Class Selector */
-.box {
-    margin: 10px;
-    padding: 2rem;
+
+.box {    
+    padding: 1rem;
     background-color: rgb(72, 135, 103);
     color: #ecf6ff;
 }
