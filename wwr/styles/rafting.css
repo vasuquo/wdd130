@@ -93,7 +93,7 @@ header img {
 
 .hero article {
     position: absolute;
-    top: 400px;
+    top: 500px;
     left: 40px;
     max-width: 75%;
     padding: 20px;
@@ -131,14 +131,46 @@ article img {
     text-align: center;
 }
 
-.adventure1 {
+.adventure1 {    
     display: flex;
+    margin: 5px;
+
 }
 
 .adventure1 img {
-    width: 18%;
-    height: 35%;
-    margin: 5px;
+    max-width:  80%;  
+    max-height: 40%;  
+    object-fit: contain;
 }
+
+figcaption {
+  text-align: start;
+  padding: 5px;
 }
+
+footer {
+    display: flex;
+    margin: 20px;
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin-left: auto;
+}
+
+.social-media {
+    margin-left: auto;
+}
+.social-media img {
+    max-width: 20%;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+
 
