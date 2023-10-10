@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 18px;
+    background: rgb(138, 186, 186);
+    
+}
+
+header, form, footer {
+    width: 700px;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(13, 246, 246, 0.252);
+    color: black;
+    border: rgba(red, green, blue, alpha);
+    border-radius: .5rem;
+    margin: 2px auto;
+    font-size: large;
+
+}
+
+button:hover {
+    background-color: rgb(118, 172, 201);
+    font-weight: 600;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px
+}
+
+fieldset {
+    display: grid;
+    padding: 10px;
+    border: rgba(174, 109, 25, 0.721) solid 2px; 
+}
+
+legend {
+    padding: 8px;
+    color: rgba(13, 10, 2, 0.794)
+}
+
+label, button, input, select, textarea {
+    font-family: Kanit;
+
+}
+
+label {
+    text-align: right;
+    padding: 6px;
+}
+
+input, select, textarea {
+    font-size: 18px;
+    padding: 3px;
+}
+
+input[type="checkbox"] {
+    width: 25x;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    padding: 5px;
+}
+
+.column1 {
+    grid-template-columns: 3fr 2fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
