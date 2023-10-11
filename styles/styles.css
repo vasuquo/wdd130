@@ -58,9 +58,6 @@ aside h2 {
 
 }
 
-ul {
-    list-style-type: none;
-}
 
 /* Class Selector */
 
@@ -68,6 +65,14 @@ ul {
     padding: 1rem;
     background-color: rgb(72, 135, 103);
     color: #ecf6ff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.box a {
+    color: white;
 }
 
 header, .grid, footer {
