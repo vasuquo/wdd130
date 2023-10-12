@@ -83,3 +83,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 2px;
 }
+
+label {
+    text-align: left;
+}
