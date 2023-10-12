@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    font-family: Lato;
+    font-size: 18px;
+    color: black;
+}
+
+header {
+    margin: 10px;
+    background-color: antiquewhite;
+    width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+span {
+    color: blue;
+}
+main {
+    width: 650px;
+    margin: 0px auto;
+    background-color: antiquewhite;
+}
+
+.form-item {
+    display: grid;
+    margin: 15px;
+}
+
+label {
+    margin: 10px;
+}
+
+input, select {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 5px;
+    margin-bottom: 8px;
+    border: none;
+    text-align: center;
+}
+
+legend {
+   padding: 10px;
+}
+
+button {
+    display: grid;
+    margin: 0 auto;
+    padding: 15px;
+    width: 75%;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: aquamarine;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+}

@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>WDD 130 | Quiz Form - Victor Asuquo</title>
 </head>
 <body>
+    <header>
+        <h1>WDD 130 | Victor Asuquo | Quiz Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>
+                    HTML And CSS Quiz
+                </legend>
+                <div class="form-item">
+                    <label for="q1"><span>1.</span> What is does HTML stand for?</label>
+                    <input type="text" name="q1" id="q1">
+                <label for="q2">
+                 <span>2.</span>  What is the difference between inline, inline-block, and block?
+                </label>
+                <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+                <label for="q3"><span>3.</span> Which of the following CSS property is used to set the color of the text?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose one....</option>
+                    <option value="text-decoration">text-decoration</option>
+                    <option value="pallet">pallet</option>
+                    <option value="colour">colour</option>
+                    <option value="color">color</option>
+                </select>
+                <label for="q4">
+                    <span>4.</span> What is the size in pixels of an element with a content of 85 pixels and padding and margin of 5 pixels all round?
+                </label>
+                <input type="number" name="q4" id="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - Quiz Form | Victor Asuquo</p>
+    </footer>
     
 </body>
 </html>
