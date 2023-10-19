@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Grid Example</title>
+    <style>
+        .home-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 40px;
+        }
+        video {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="home-grid">
+        <video class="ptn-video" autoplay muted>
+          <source src="./mov_bbb.mp4" type="video/mp4">
+        </video>
+        <h1 class="patn-title">Path to the video</h1>
+        <aside class="visit-us">
+            <img src="./beach.webp" alt="beach">
+            <h2>Visit Us</h2>
+            <p>Beautiful Island palm trees sand exotic sea water
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolorum?
+            </p>
+        </aside>
+        <img src="./beach2.webp" alt="beach2">
+        <img src="./beach3.webp" alt="beach3">
+    </div>
+    
+</body>
+</html>
