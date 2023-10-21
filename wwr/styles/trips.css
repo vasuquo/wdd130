@@ -71,8 +71,11 @@ header img {
     flex: 30px;
     text-decoration: none;
     text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    font-weight: 600;
     border: var(--nav-link-color) solid 1px;
-    color: var(--heading-font);
+    color: var(--accent1-color);
     padding: 10px;
 }
 
@@ -171,6 +174,7 @@ section {
 .sub2 h3 {
     text-align: center;
 }
+
 .sub2 {
     background-color: #dee3e6;
     margin-left: 5px;
@@ -184,8 +188,9 @@ section {
 
 table {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 14px;
 }
+
 table, th, td {
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(43, 44, 47, 0.15);
@@ -193,7 +198,7 @@ table, th, td {
     text-align: center;
     font-family: var(--accent1-color);
     font-size: 16px;
-  }
+}
 
 footer {
     display: flex;
@@ -203,6 +208,12 @@ footer {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    font-family: var(--paragraph-font);
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
 }
 
 footer p {
