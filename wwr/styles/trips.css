@@ -121,6 +121,7 @@ article a {
     border: none;
     cursor: pointer;
     font-family: var(--heading-font);
+    font-weight: 800;
     color: var(--accent2-color);
     font-size: 30px;
     background-color: #5353ae;
