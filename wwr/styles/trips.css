@@ -8,7 +8,7 @@
 
 :root {
     --primary-color : #f6e7cb;
-    --secondary-color : #bce4d0;;
+    --secondary-color : #bce4d0;
     --accent1-color : black;
     --accent2-color: #d7d9c8;
 
@@ -191,6 +191,7 @@ header img {
     background-color: #dee3e6;
     margin-left: 5px;
     font-family: var(--paragraph-font);
+    font-weight: 700;
 }
 
 .sub1 img {
@@ -205,10 +206,9 @@ table {
 
 table, th, td {
     border-collapse: collapse;
-    box-shadow: 0 0 20px rgba(43, 44, 47, 0.15);
+    box-shadow: 0 0 20px rgba(31, 32, 33, 0.15);
     padding: 5px;
     text-align: center;
-    font-family: var(--accent1-color);
     font-size: 16px;
 }
 
@@ -220,9 +220,7 @@ footer {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    font-family: var(--paragraph-font);
-    font-weight: 800;
-    color: black;
+    font-weight: 700;
 }
 
 footer a {
@@ -237,7 +235,7 @@ footer p {
     margin-left: auto;
 }
 .social-media img {
-    max-width: 20%;
+    max-width: 15%;
 }
 
 .social-media a {
