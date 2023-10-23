@@ -106,7 +106,7 @@ header img {
     height: 300px;
 }
 
-.hero article {
+.booking {
     position: absolute;
     top: 390px;
     left: 350px;
@@ -116,7 +116,7 @@ header img {
     box-sizing: border-box;    
 }
 
-article a {    
+.booking a {    
     display: block;
     text-decoration: none;
     width: 480px;
@@ -131,9 +131,21 @@ article a {
     text-align: center;
 }
 
-section {
+.sec1 {
   margin-left: 20px;
   width: 100%;
+}
+
+.trips a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #3d55de;
+    width: 80px;
+    padding: 8px;
+    font-weight: 700;
+    margin-left: 100px;
 }
 
 .trip-container {
@@ -209,7 +221,8 @@ footer {
     padding: 10px;
     box-sizing: border-box;
     font-family: var(--paragraph-font);
-    font-weight: 600;
+    font-weight: 800;
+    color: black;
 }
 
 footer a {
